@@ -10,19 +10,19 @@ on:
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'twrp-12.1'
+        default: 'twrp-12'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/devdaw6/device_red_magic_7'
+        default: 'https://github.com/twrpdtgen/android_device_nubia_NX679J/tree/NX679J-EEA-user-12-SKQ1.211113.001-eng.nubia.20221001.124051-release-keys'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-12.1'
+        default: 'NX679J-UN-user-12-SKQ1.211113.001-eng.nubia.20220627.174421-release-keys'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/mubia/redmagic7'
+        default: 'devdaw6/android_device_nubia_NX679J'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'redmagic7'
+        default: 'NX679J'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_I003D'
+        default: 'omni_NX679J'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
